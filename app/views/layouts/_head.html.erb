@@ -1,13 +1,10 @@
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="distribution" content="global" />
-  <meta name="robots" content="follow, all" />
-  <meta name="language" content="en, th" />
-  <title>eLocal</title>
-  <link rel="shortcut icon" href="/assets/favicon.ico" />
-  <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+  <%= favicon_link_tag %>
+  <%= csrf_meta_tags %>
+  <%= display_meta_tags %> 
   <%= stylesheet_link_tag "jinda", "sarabun" %>
   <meta name="description" content="Jinda" />
   <%= javascript_include_tag "jquery.tools.min.js"  %>
   <%= javascript_include_tag "application", "flashobject", "FusionCharts"  %>
+  <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/additional-methods.min.js"></script>
 </head>
